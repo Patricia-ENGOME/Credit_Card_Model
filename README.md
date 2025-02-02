@@ -10,17 +10,19 @@ Ce projet vise à prédire automatiquement si un client obtiendra un prêt en fo
 ✅ Identifier les variables les plus déterminantes.<br>
 
 ## Présentation des données
-Dans ce projet, nous utilisons une base de données contenant des informations sur des clients ayant fait une demande de prêt bancaire. https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset?resource=download
+Dans ce projet, nous utilisons une base de données contenant des informations sur des clients ayant fait une demande de prêt bancaire disponible sur [Kaggle](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset?resource=download) <br>
 
-Gender: Sexe du demandeur (Male/Female) <br>
-Married: Indique si le demandeur est marié (Yes/No)	<br>
-Dependents: Nombre de personnes à charge (0, 1, 2, 3+)	<br>
-Education : Niveau d’éducation (Graduate/Not Graduate)	<br>
-Self_Employed : Indique si le demandeur est indépendant (Yes/No) <br>
-ApplicantIncome : Revenu principal du demandeur	<br>
-CoapplicantIncome : Revenu du conjoint(e) du demandeur (si applicable)	<br>
-Loan_Amount : Montant du prêt demandé <br>
-Loan_Amount_Term : Durée du prêt en mois <br>
-Credit_History : Historique de crédit (1 = bon, 0 = mauvais) <br>
-Property_Area : Localisation du bien (Urban, Rural, Semiurban) <br>
-Loan_Status	Variable cible : prêt accordé (Y) ou refusé (N)
+|Variables| Description | Valeurs|
+|:-------:|:-----------:|:------:|
+|  Gender | Sexe du demandeur |Male/Female|
+|Married| Indique si le demandeur est marié| Yes/No	|
+|Dependents|Nombre de personnes à charge |0, 1, 2, 3+ |
+|Education| Niveau d’éducation |Graduate/Not Graduate|
+|Self_Employed |Indique si le demandeur est indépendant|Yes/No|
+|ApplicantIncome| Revenu principal du demandeur |
+|CoapplicantIncome| Revenu du conjoint(e) du demandeur (si applicable)|
+|Loan_Amount |Montant du prêt demandé |
+|Loan_Amount_Term  |Durée du prêt en mois |
+|Credit_History | Historique de crédit |1 = bon, 0 = mauvais|
+|Property_Area| Localisation du bien |Urban, Rural, Semiurban|
+|Loan_Status	|Variable cible |prêt accordé (Y) ou refusé (N)|
