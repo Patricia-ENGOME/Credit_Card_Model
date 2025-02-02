@@ -6,7 +6,7 @@ Ce projet vise à prédire automatiquement si un client obtiendra un prêt en fo
 
 ## Objectifs
 ✅ Analyser les facteurs influençant l’acceptation d’un prêt. <br>
-✅ Entraîner et comparer plusieurs modèles de classification.<br>
+✅ Entraîner un modèle de regression logistique.<br>
 ✅ Identifier les variables les plus déterminantes.<br>
 
 ## Présentation des données
